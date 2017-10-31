@@ -17,7 +17,7 @@ abs_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(abs_path)
 sys.path.append(os.path.join(abs_path, "..", "..", "..", "..", "Examples", "Image", "Classification", "ResNet", "Python"))
 from prepare_test_data import prepare_CIFAR10_data
-from TrainResNet_CIFAR10 import train_and_evaluate, create_reader
+from TrainResNet_CIFAR10 import train_and_evaluate, create_image_mb_source
 
 #TOLERANCE_ABSOLUTE = 2E-1
 
